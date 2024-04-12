@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8f7; /* Verde claro */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #006400; /* Verde escuro */
+    text-align: center;
+}
+
+.dog-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.dog-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    overflow: hidden; /* Evita que a imagem ultrapasse os limites do item da lista */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+}
+
+.dog-item img {
+    width: 200px; /* Tamanho da imagem */
+    float: left; /* Alinha a imagem à esquerda */
+    margin-right: 20px; /* Espaço entre a imagem e as informações do cachorro */
+    border-radius: 5px; /* Bordas arredondadas para a imagem */
+}
+
+.dog-info {
+    overflow: hidden; /* Limpa o float da imagem */
+}
+
+.dog-info h3 {
+    margin-top: 0; /* Remove a margem superior do título do cachorro */
+    color: #006400; /* Verde escuro */
+}
+
+.dog-info p {
+    margin: 5px 0; /* Espaçamento entre as informações do cachorro */
+    color: #006400; /* Verde escuro */
+}
